@@ -1,4 +1,11 @@
-<h1><%=  @question %></h1>
-<%= @answer %>
+<div class="you">
+<h3><%=  @question %></h3>
+<p> You </p>
+</div>
 
-<%= link_to "ask", "ask" %>
+<div class="coach">
+<h2><%= @answer %> </h2>
+<p> Your Coach</p>
+</div>
+
+<%= link_to "Ask another question", "ask" %>

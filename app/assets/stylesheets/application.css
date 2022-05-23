@@ -1,17 +1,23 @@
 body{
-margin: 25px;
+padding: 20px;
 }
 
-h1, h3{
-margin:20px;
-padding: 10px;
-color: #282726;
+.coach{
+ background-color: lightyellow;
+ border-left: 5px solid lightgrey;
+ padding: 16px;
+ margin-bottom: 32px;
 }
 
-form{
-margin: 35px;
+.you{
+ border-left:  5px solid lightgrey;
+ padding: 16px;
+ margin-bottom: 32px;
 }
 
+a{
+ text-decoration: none;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
